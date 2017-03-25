@@ -1,10 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import sys, math
+# Author: Spencer Caplan
+# Contact: spcaplan@sas.upenn.edu
+# Modified: 3/25/2017
+
+import sys, unicodedata, operator
 reload(sys)
 sys.setdefaultencoding('utf-8')
-import unicodedata, operator
 from unicodedata import normalize
 
 fullCoupleRankingDict = {}
